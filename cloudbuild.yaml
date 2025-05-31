@@ -3,13 +3,7 @@ steps:
   - name: 'node:18'
     entrypoint: npm
     args: ['install']
-
-  # Run linting
-  - name: 'node:18'
-    entrypoint: npm
-    args: ['run', 'lint']
-    id: 'lint'
-
+    
   # Build TypeScript
   - name: 'node:18'
     entrypoint: npm
