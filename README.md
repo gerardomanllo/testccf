@@ -111,7 +111,7 @@ curl -X POST https://your-function-url/customerSummary \
 3. Deploy the function:
    ```bash
    gcloud functions deploy customerSummary \
-     --runtime nodejs18 \
+     --runtime nodejs20 \
      --trigger-http \
      --allow-unauthenticated
    ```
