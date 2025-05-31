@@ -4,9 +4,9 @@
     "main": "dist/index.js",
     "scripts": {
         "build": "tsc",
+        "lint": "eslint . --ext .ts",
         "start": "functions-framework --target=customerSummary",
         "test": "jest"
-
     },
     "dependencies": {
         "@google-cloud/bigquery": "^7.6.0",
